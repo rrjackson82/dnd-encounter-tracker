@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.objContainer{
+    list-style: none;
+    margin: auto;
+    width: 100%;
+    max-width: 540px;
+}
+.obj{
+    color: black;
+    margin: 25px 0;
+    /*border: 2px solid gray;*/
+    border-radius: 20px;
+    box-shadow: 1px 1px 25px rgba(190, 190, 190, 0.99);
+    background: linear-gradient(-90deg, rgba(54, 54, 54, 0.99), rgba(217, 217, 217, 0.99));
+    padding: 5%;
+    cursor: pointer;
+}
+
+.health{
+    width: 100px;
+    text-align: center;
+    background-color: transparent;
+    cursor: text;
+    margin-left: auto;
+    margin-right: 0;
+    float: right;
+    border: 1px solid grey;
+    color: #e0e0e0;
+    padding: 2px 10px;
+    border-radius: 5px;
+}
+.selected{
+    cursor: default;
+    background: linear-gradient(90deg, rgba(55,55,55,0.99), rgba(35,35,35,0.99));
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.37);
+    /*text-shadow: 0 0 2px rgba(252, 252, 252, 0.38);*/
+    color: #e0e0e0;
+}
+.monster{
+    color: #e0e0e0;
+    text-shadow: 1px 1px 5px rgb(105, 55, 55);
+    margin: 25px 0;
+    border-radius: 20px;
+    box-shadow: 1px 1px 25px rgba(191, 134, 134, 0.99);
+    background: linear-gradient(-90deg, rgba(69, 32, 32, 0.99), rgba(222, 82, 82, 0.99));
+    padding: 5%;
+    cursor: pointer;
+}
+input{
+    font: 16px "Poppins", sans-serif;
+}
+input::placeholder{
+    opacity: 75%;
+    color: white;
+    text-align: center;
+    padding: 5%;
+    font: 16px "Poppins", sans-serif;
+}
