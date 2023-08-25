@@ -6,6 +6,9 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
+body{
+    /*background-color: rgba(52,52,52,0.99);*/
+}
 .objContainer{
     list-style: none;
     margin: auto;
@@ -62,4 +65,47 @@ input::placeholder{
     text-align: center;
     padding: 5%;
     font: 16px "Poppins", sans-serif;
+}
+.buttonContainer{
+    margin: auto;
+    width: 100%;
+    max-width: 540px;
+    display: flex;
+}
+button{
+    color: white;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 1px 1px 25px rgba(153, 165, 191, 0.99);
+    background: linear-gradient(-135deg, rgba(43, 54, 79, 0.99), rgba(119, 150, 217, 0.99));
+    padding: 4% 8%;
+    margin: 1% 0;
+    cursor: pointer;
+    align-self: center;
+}
+#nextBtn{
+    flex: 1 1 150px;
+}
+#newBtn{
+    flex: 1 1 150px;
+}
+#endBtn{
+    margin: 0 2%;
+    flex: 1 1 250px;
+    background: linear-gradient(-135deg, rgba(43, 20, 20, 0.99), rgba(171, 63, 63, 0.99));
+}
+.changed{
+    background-color: transparent;
+    float: right;
+    opacity: 100%;
+    text-align: center;
+    font: 16px "Poppins", sans-serif;
+    width: 100px;
+    cursor: text;
+    margin-left: auto;
+    margin-right: 0;
+    border: 1px solid white;
+    color: #e0e0e0;
+    padding: 2px 10px;
+    border-radius: 5px;
 }
